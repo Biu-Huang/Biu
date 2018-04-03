@@ -7,8 +7,14 @@
 				height:40px;
 				border-bottom:1px dashed black;
 			}
+			.nav-right{
+				float:right;
+			}
+			.nav-right li{
+				margin:10px;
+			}
 			.main{
-				height:80%;
+				height:90%;
 				overflow:scroll;
 			}
 			.left{
@@ -17,6 +23,7 @@
 				border:1px dashed red;
 				margin:10px;
 				float:left;
+				position:fixed;
 			}
 			.right{
 				width:60%;
@@ -35,7 +42,18 @@
 	</head>
 	<body>
 		<header>
-			<div class="nav"></div>
+			<div class="nav">
+				<ul class="nav-left">
+					<li><a>Blogs-Biu</a></li>
+				</ul>
+				<ul class="nav-right">
+					<li><a>訪客</a></li>
+					<li><a>更新</a></li>
+					<li><a>咨詢</a></li>
+					<li><a>登錄</a></li>
+					<li><a>設置</a></li>
+				</ul>
+			</div>
 		</header>
 		<div class="main">
 			<div class="left">
